@@ -2917,7 +2917,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 1.00);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.jpg"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/overlay2.jpg"), url("images/overlay3.svg"), linear-gradient(75deg, #000000 5%, #3d4443 30%, #228cbd);
 		background-position: center,						center center,					center center;
 		background-size: cover,							cover,							cover;
 	

@@ -471,7 +471,7 @@ input, select, textarea {
 /* quote */
 
 	body{background:rgb(255, 255, 255);}
-	#ct{height:580px; width:17em;border:1px solid rgb(212,175,55);margin: 18px auto;text-align:center;position:relative;color:rgb(12, 8, 8);padding:13px;}
+	#ctt{height:535px; width:17em;border:1px solid rgb(212,175,55);margin: 18px auto;text-align:center;position:relative;color:rgb(12, 8, 8);padding:13px;}
 	span{
 	background:rgb(255, 255, 255);
 	color:rgb(212,175,55);
@@ -511,7 +511,46 @@ input, select, textarea {
 	}
 	p{padding-top:-23px;font-size:18px}
 
-	
+	body{background:rgb(255, 255, 255);}
+	#ct{height:580px; width:17em;border:1px solid rgb(212,175,55);margin: 18px auto;text-align:center;position:relative;color:rgb(12, 8, 8);padding:13px;}
+	span{
+	background:rgb(255, 255, 255);
+	color:rgb(212,175,55);
+	padding:0 10px;
+	font-size:20px;
+	position:relative; 
+	top:-28px;
+	}
+	.corner{height:30px;
+	width:30px;
+	border-radius:50%;
+	border:1px solid #fff;
+	transform:rotate(-45deg);  
+	position:absolute;
+	background:rgb(255, 255, 255);
+	}
+
+	#left_top{
+	top:-16px;
+	left:-16px;
+	border-color:transparent transparent rgb(212,175,55) transparent;
+	}
+	#right_top{
+	top:-16px;
+	right:-16px;
+	border-color:transparent transparent transparent rgb(212,175,55);
+	}
+	#left_bottom{
+	bottom:-16px;
+	left:-16px;
+	border-color:transparent rgb(212,175,55) transparent transparent ;
+	}
+	#right_bottom{
+	bottom:-16px;
+	right:-16px;
+	border-color: rgb(212,175,55) transparent transparent transparent;
+	}
+	p{padding-top:-23px;font-size:18px}
 
 /* thesisq */
 	body{background:rgb(255, 255, 255);}
@@ -2894,7 +2933,7 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1.5em;
+			padding: 0 0 0 2em;
 			vertical-align: middle;
 		}
 
@@ -3015,6 +3054,7 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 2.25em 1em 0;
+			color:rgba(255, 255, 255, 0.5);
 			
 		}
 

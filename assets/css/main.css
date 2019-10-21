@@ -265,7 +265,7 @@ input, select, textarea {
 			top: -0.9em;
 			font-size: 1.5em;
 			padding: 0 0.0em;
-			background: white;
+			background: transparent;
 		}
 		hr.major {
 			margin: 3em 0;
@@ -3310,9 +3310,19 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: #fff;
+			
+			background-image:  url("../../images/equas.png");
+			background-size: contain;
+			background-position: 50% 50%;
+  			background-repeat: repeat;
 		}
-	
+		.main.style12 {
+			
+			background-image:  url("../../images/code.png");
+			background-size: contain;
+			background-position: 50% 50%;
+  			background-repeat: repeat;
+		}
 		.main.style2 {
 			background-color: rgb(255, 255, 255);
 			color: rgba(255, 255, 255, 1.0);
@@ -3495,6 +3505,16 @@ input, select, textarea {
 			background-attachment: fixed,							fixed;
 			background-image: url("images/overlay1.png"), url("../../images/blackboard.jpg");
 			background-size: auto,							cover;
+			
+			padding: 1em 0 4em 0 ;
+		}	
+		.main.style32 {
+			background-color: rgb(255, 255, 255);
+			color: rgba(255, 255, 255, 1.0);
+			background-attachment: fixed,							fixed;
+			
+			background-size: auto,							cover;
+			
 			padding: 1em 0 4em 0 ;
 		}	
 
@@ -4099,3 +4119,44 @@ input, select, textarea {
 			}
 
 	}
+.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+
+.demo .large-header {
+   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+}
+
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.demo .main-title {
+   text-transform: uppercase;
+   font-size: 4.2em;
+   letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+   font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
+}	

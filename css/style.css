@@ -24,11 +24,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700');
 @import url("fontawesome-all.min.css");
-
-@font-face {
-  font-family: "myfont";
-  src: url("hyperion.woff") format('woff');
-}
 /*======================
         1.BASIC
 ========================*/
@@ -160,9 +155,17 @@ button:focus {
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
-
+.section2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  background-color: white;
+  background-position:center;
+  background-image: url("../images/banner.png") ;
+  background-repeat: repeat-x;
+}
 .h-100vh {
     height: 100vh;
 }
@@ -224,9 +227,9 @@ button:focus {
 .btn-outline-custom:focus,
 .btn-outline-custom:hover,
 .open > .dropdown-toggle.btn-outline-custom {
-    color: #D4AF37;
-    background-color: None;
-    border-color: #D4AF37;
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
 }
 
 .bg-overlay {
@@ -425,7 +428,7 @@ button:focus {
 =============================*/
 
 .services-boxes {
-    border: 1px solid #e8e8e8;
+    border: 1px solid rgba(212,175,55,0.8);
 }
 
 .services-boxes .services-boxes-icon i {
@@ -648,7 +651,11 @@ button:focus {
 
 .footer {
     padding: 70px 0px;
-    background-color: #242424 !important;
+    background-color: #ffffff !important;
+    position: relative;
+    background-size: cover;
+    background-image: url(../images/footer_banner.png);
+    background-repeat: repeat-x;
 }
 
 .footer .footer-alt p {
@@ -1081,12 +1088,6 @@ body {
      text-shadow: inherit;
    }
  }
-
-
- 
-
- 
-
 
 
  

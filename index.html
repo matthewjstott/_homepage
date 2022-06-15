@@ -1,1274 +1,1553 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>stott.ai</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="SRBThemes" />
-        <link rel="shortcut icon" href="images/favicon.ico">
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>M@</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Kerge - Resume / CV / vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon.ico">
 
-        <!--Bootstrap Css-->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+      </style>  
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+      </style>  
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+      </style>  
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+      </style>  
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+      </style> 
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
+      </style> 
+    <script src="js/modernizr.custom.js"></script>
+  </head>
 
-        <!-- Materialdesign icons Css -->
-        <link href="css/materialdesignicons.min.css" rel="stylesheet">
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
 
-        <!-- Mobirise icons Css -->
-        <link href="css/mobiriseicons.css" rel="stylesheet"> 
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="header-content clearfix">
+          
 
-        <!-- Magnific-popup -->
-        <link rel="stylesheet" href="css/magnific-popup.css">
+          <div class="site-title-block">
+            <div class="site-title" style="font-family: 'Alex Brush', cursive; font-size: 3em;">m@</div>
+          </div>
 
-        <!-- Animate Css -->
-        <link rel="stylesheet" href="css/animate.min.css">
+          <!-- Navigation -->
+          <div class="site-nav">
+            <!-- Main menu -->
+            <ul id="nav" class="site-main-menu">
+              <li>
+                <a class="pt-trigger" href="#about-me" style="font-family: 'Shippori Mincho', serif">About Me</a><!-- href value = data-id without # of .pt-page. -->
+              </li>
+              <li>
+                <a class="pt-trigger" href="#resume" style="font-family: 'Shippori Mincho', serif;">Resume</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#portfolio" style="font-family: 'Shippori Mincho', serif;">Photography</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#blog" style="font-family: 'Shippori Mincho', serif;">Research</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#contact" style="font-family: 'Shippori Mincho', serif;">Contact</a>
+              </li>
+            </ul>
+            <!-- /Main menu -->
+          </div>
+          <!-- Navigation -->
 
-        <!-- OWL SLIDER -->
-        <link rel="stylesheet" href="css/owl.carousel.css" />
-        <link rel="stylesheet" href="css/owl.theme.css" />
-        <link rel="stylesheet" href="css/owl.transitions.css" />
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="https://uk.linkedin.com/in/matthewjstott" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/______mjs/?hl=en-gb" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+          <!-- / Social Links -->
 
-        <!-- Custom style Css -->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/color/metalicgold.css" rel="stylesheet" id="option-color">
+          <!-- Copyrights -->
+          <div class="copyrights" style="font-family: 'Shippori Mincho', serif;">© MJS 2022</div>
+          <!-- / Copyrights -->
+        </div>
+      </header>
+      <!-- /Header -->
 
-        <!-- Google fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Gruppo&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-
-    </head>
-
-    <body>
-
-        <!-- Loader -->
-        <div id="preloader">
-            <div id="status">
-                <div class="spinner">Loading...</div>
-            </div>
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-header-image">
+            <a href="#">
+                <img src="images/pic.jpeg" alt="image">
+            </a>
+          </div>
+          <div class="mobile-site-title font-family: 'Shippori Mincho', serif;"><a href="#">Matthew <span style="color: #5b5b5b;">J.</span> Stott</a></div>
         </div>
 
-        <!-- Start Navbar -->
-    	<nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
-            <div class="container" >
-                
-                <a class="navbar-brand pt-0 logo" href="#" >
-                    <p class="img-fluid logo-light" style="font-family: Nanum Myeongjo;font-size: 20px; line-height: 2.5em;letter-spacing: 3px;"><font color="#b08f26">STOTT</font><font color="white">.AI</font></p>
-                    <p class="img-fluid logo-dark" style="font-family: Nanum Myeongjo;font-size: 20px;line-height: 2.5em;letter-spacing: 3px;"><font color="black">STOTT</font><font color="#b08f26">.AI</font></p>
-                </a>
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="mdi mdi-menu"></span>
-                </button>
+      <!-- Arrows Nav -->
+      
+      <!-- /Arrows Nav -->
 
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#client">Research</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#work">Photography </a>
-                        </li>
-                       <!-- <li class="nav-item">
-                            <a class="nav-link" href="#blog">Blog</a>
-                        </li>-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- End Navbar -->
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
 
-        <!-- START HOME -->
-        <section class="section header-bg-img h-100vh" id="home">
-            <div class="bg-overlay"></div>
-            <div class="header-table">
-                <div class="header-table-left" style="padding-right: 20em;">
-                    <div class="container position-relative z-index">
-                        <div class="row justify-content-left">
-                            <div class="col-lg-12">
-                                <div class="text-left header-content mx-auto">
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <h4 class="text-white first-title mb-4" style="font-family: Cinzel;font-size: 50px;">MATTHEW</h4>
-                                    <h4 class="text-white first-title mb-4" style="font-family: Cinzel;font-size: 50px;">J. STOTT</h4>
-                                    <h4 class="text-white first-title mb-4" style="font-family: Cinzel;font-size: 30px;">Keep scrolling....</h4>
-
-
-                               
-                                    <!--<h6 class="text-white first-title mb-4" style="font-family: Cinzel;font-size: 50px;">WELCOME</h4>-->
-
-                                    <!--<h1 class="header-name text-white text-capitalize mb-0" style="font-family: Amatic SC;font-size: 60px;">I'M <span class="simple-text-rotate font-weight-bold">Matt.,Stott.AI.,A Photographer.</span></h1>-->
-
-                                   
-                                </div>
-                            </div>
+            <!-- Home Subpage -->
+            <section class="pt-page" data-id="about-me">
+              <div class="section-inner start-page-full-width">
+                <div class="start-page-full-width">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="inner-content">
+                          <div class="fill-block"></div>
                         </div>
                     </div>
-                </div>
-            </div>            
-            <div class="scroll_down">
-                <a href="#about" class="scroll">
-                    <i class="text-white"></i>
-                </a>
-            </div>
-        </section>
-        <!-- END HOME -->
-
-        <!-- START ABOUT -->
-        <section class="section" id="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="mt-3">
-                            <img src="images/me_safari.jpg" style="width:65%;" alt="" class="img-fluid mx-auto d-block img-thumbnail">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="mt-3">
-                            <h2 style="font-family:Cinzel;"><span class="font-weight-bold;">Hello! </span style="red">I'M <font style="color:#D4AF37">Matt</font></h2>
-                            <p class="text-muted mt-4" style="font-family:Cinzel;">I recently completed my PhD in Mathematics & Theoretical Physics with a focus on random matrix theory, axion cosmology in string theory and the phenomenology of black hole superradiance. </p>
-                            <div class="work_img">
-                                <img src="images/sig.png" width="35%" class="img-fluid mx-auto d-block rounded" align="left" alt="work-img"  style="text-shadow: 2px 2px 4px #000000;">
+                    <div class="col-sm-12 col-md-6 col-lg-6" >
+                      <div class="inner-content" >
+                        <div class="hp-text-block" style="background-color: white;">
+                          <!-- Text rotation / Subtitle -->
+                          <div class="owl-carousel text-rotation">                                    
+                            <div class="item">
+                              <div class="sp-subtitle" style="font-family: 'Cormorant Garamond', serif;">Data Scientist</div>
                             </div>
-                            
-                            <div>
-                                <br>
-                                <br>
-                                <br>
+                            <div class="item">
+                              <div class="sp-subtitle" style="font-family: 'Cormorant Garamond', serif;">Theoretical Physicist</div>
+                            </div>
+                          </div>
+                          <!-- /Text rotation / Subtitle -->
+
+                          <h2 class="hp-main-title" style="font-family: 'Shippori Mincho', serif;">Matthew <span style="color: #5b5b5b;">J.</span> Stott</h2>
+                          <p style="font-family: 'Shippori Mincho', serif;">Praesent sed aliquam arcu, non accumsan neque. In odio ante, vulputate ac magna vel, pharetra lobortis quam. Duis enim tortor, egestas et felis id, lobortis malesuada magna. Nunc sit amet sagittis nisi, eu semper nisl. Cras ut dictum nisl. Donec tincidunt eget orci.</p><p style="font-family: 'Shippori Mincho', serif;">Aliquam mollis, leo nec commodo facilisis, turpis lorem dapibus erat, sed consectetur nunc nulla ac elit. Suspendisse dictum id dui mollis auctor. Etiam id sapien neque. Cras nec rhoncus sem. Mauris metus ligula, varius vel iaculis at, pulvinar tincidunt magna.</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section-inner custom-page-content">
+                <div class="page-content">
+                  <!-- Services Block Title -->    
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="col-inner">
+                        <div class="block-title">
+                            <h3 style="font-family: 'Shippori Mincho', serif;">About me...</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Services Block Title -->  
+
+                  <!-- Services Block -->  
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <!-- Service Item 1 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <img src="images/story.png" alt="image">
+                              
+                            </div>
+                            <div class="ci-text">
+                              <h4 style="font-family: 'Shippori Mincho', serif;">What I Do...</h4>
+                              <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                            </div>
+                          </div>
+                          <!-- /Service Item 1 -->
+
+                          <!-- Service Item 2 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <img src="images/photography/mono_logo.png" alt="image">
+                            </div>
+                            <div class="ci-text">
+                              <h4 style="font-family: 'Shippori Mincho', serif;">What I Like...</h4>
+                              <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                            </div>
+                          </div>
+                          <!-- Service Item 2 -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <!-- Service Item 3 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <img src="images/kings.jpg" alt="image">
+                            </div>
+                            <div class="ci-text">
+                              <h4 style="font-family: 'Shippori Mincho', serif;">What I Did...</h4>
+                              <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                            </div>
+                          </div>
+                          <!-- Service Item 3 -->
+
+                          <!-- Service Item 4 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="fab fa-location"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4 style="font-family: 'Shippori Mincho', serif;">Where I Am...</h4>
+                              <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                            </div>
+                          </div>
+                          <!-- Service Item 4 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Services Block -->
+
+                  
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page" data-id="resume">
+              <div class="section-inner custom-page-content">
+                <div class="section-title-block second-style">
+                  <h2 class="section-title" style="font-family: 'Shippori Mincho', serif;">Resume</h2>
+                  <h5 class="section-description" style="font-family: 'Shippori Mincho', serif;">Curriculum Vitae - 01/06/2021</h5>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="col-inner ts-30">
+                        <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section-content">
+        
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-8">
+                      <div class="col-inner bs-30">
+                        
+                        <div class="block-title">
+                            <h3 style="font-family: 'Shippori Mincho', serif;">Experience</h3>
+                        </div>
+
+                        <div class="timeline timeline-second-style bs-30 clearfix">
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <div class="ci-icon">
+                                <img src="images/story.png" alt="image" style="width: 5em;">
+                              </div>
+                              <h5 class="item-period"style="font-family: 'Shippori Mincho', serif;">2020-Present</span>
+                              <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">The Story Market</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">Data Scientist</h4>
+                              <p style="font-family: 'Shippori Mincho', serif;">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>
+                            </div>
+                          </div>
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <div class="ci-icon">
+                                <img src="images/story.png" alt="image" style="width: 5em;">
+                              </div>
+                              <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">2020-2020</h5>
+                              <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">The Story Market</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">Data Science Fellow</h4>
+                              <p style="font-family: 'Shippori Mincho', serif;">Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.</p>
+                            </div>
+                          </div>
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <div class="ci-icon">
+                                <img src="images/faculty.png" alt="image" style="width: 5em;">
+                              </div>
+                              <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">2020-2020</h5>
+                              <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">Faculty</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">Data Science Fellow</h4>
+                              <p style="font-family: 'Shippori Mincho', serif;">Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="block-title">
+                            <h3 style="font-family: 'Shippori Mincho', serif;">Education<span></span></h3>
+                        </div>
+
+
+                        <div class="timeline timeline-second-style clearfix">
+                          
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <div class="ci-icon">
+                                <img src="images/kings.jpg" alt="image" style="width: 5em;">
+                              </div>
+                              <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">2015 - 2020</h5>
+                              <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">King's College London</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">PhD Theoretical Physics & Mathematics</h4>
+                              <p style="font-family: 'Shippori Mincho', serif;">Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna.</p>
+                            </div>
+                          </div>
+
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <div class="ci-icon">
+                                <img src="images/kings.jpg" alt="image" style="width: 5em;">
+                              </div>
+                              <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">2010 - 2015</h5>
+                              <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">King's College London</span>
+                                    </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">MSci Physics (1st Class Honours)</h4>
+                              <p style="font-family: 'Shippori Mincho', serif;">Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla tristique, ornare felis id, congue libero. Nam volutpat euismod quam.</p>
+                            </div>
+                          </div>
+
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <div class="ci-icon">
+                                <img src="images/kings.jpg" alt="image" style="width: 5em;">
+                              </div>
+                              <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">2010 - 2015</h5>
+                              <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">King's College London</span>
+                                    </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">Associate of King's College (AKC)</h4>
+                              <p style="font-family: 'Shippori Mincho', serif;">Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla tristique, ornare felis id, congue libero. Nam volutpat euismod quam.</p>
+                            </div>
+                          </div>
+
+                        
+                        </div>
+                        <div class="block-title">
+                          <h3 style="font-family: 'Shippori Mincho', serif;">Published Papers<span></span></h3>
+                        </div>
+
+
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">March 11, 2021</h5>
+                            <a href='https://arxiv.org/pdf/2103.06812.pdf'>Link</a>
+                         
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">Superradiance in String Theory</h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Viraf M. Mehta, Mehmet Demirtas, Cody Long, David J.E. Marsh, Liam McAllister, Matthew J. Stott</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">Nov 17, 2020</h5>
+                            <a href='https://arxiv.org/pdf/2011.08693.pdf'>Link</a>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">Superradiance Exclusions in the Landscape of Type IIB String Theory
+                            </h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Viraf M. Mehta, Mehmet Demirtas, Cody Long, David J.E. Marsh, Liam McAllister, Matthew J. Stott</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">Sep 15, 2020</h5>
+                            <a href='https://arxiv.org/pdf/2009.07206.pdf'>Link</a>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">Ultralight Bosonic Field Mass Bounds from Astrophysical Black Hole Spin
+                            </h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Matthew J. Stott</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">Jan 27, 2020</h5>
+                            <a href='https://arxiv.org/pdf/2001.09793.pdf'>Link</a>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">Prospects for Fundamental Physics with LISA
+                            </h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Enrico Barausse et al.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">Nov 14, 2018</h5>
+                            <a href='https://arxiv.org/pdf/1811.05763.pdf'>Link</a>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">The Spectrum of the Axion Dark Sector, Cosmological Observable and Black Hole Superradiance Constraints
+                            </h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Matthew J. Stott</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">May 5, 2018</h5>
+                            <a href='https://arxiv.org/pdf/1805.02016.pdf'>Link</a>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">Black hole spin constraints on the mass spectrum and number of axionlike fields
+                              
+                            </h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Matthew J. Stott, David J.E. Marsh</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">Jun 10, 2017</h5>
+                            <a href='https://arxiv.org/pdf/1706.03236.pdf'>Link</a>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">Spectrum of the axion dark sector
+                            </h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Matthew J. Stott, David J. E. Marsh, Chakrit Pongkitivanichkul Layne C. Price, Bobby S. Acharya</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">Dec 22, 2016</h5>
+                            <a href='https://arxiv.org/pdf/1612.07599.pdf'>Link</a>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">Gravitational Wave Bursts from Cosmic String Cusps and Pseudocusps
+
+                            </h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Matthew J. Stott, Thomas Elghozi, Mairi Sakellariadou</p>
+                          </div>
+                        </div>
+                      </div>    
+
+
+
+                      <div class="block-title">
+                          <h3 style="font-family: 'Shippori Mincho', serif;">Conference Talks<span></span></h3>
+                        </div>
+
+
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">24th-28th June 2019</h5>
+                            <span class="item-company" style="font-family: 'Shippori Mincho', serif;" >CERN, Geneva</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">XIX Conference on String Phenomenology</h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Effective multi-axion cosmology and constraints from black hole superradiance.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">3rd-7th June 2019</h5>
+                            <span class="item-company" style="font-family: 'Shippori Mincho', serif;">Parque de las Ciencias, Granada</span>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">XXII Conference From the Planck Scale to the Electro-Weak Scale</h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Effective ultralight multi-axion string models and constraints via black hole superradiance.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">1st-3rd June 2019</h5>
+                            <span class="item-company" style="font-family: 'Shippori Mincho', serif;">Max Planck Institute, Münich</span>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">X Strings, Cosmology, and Gravity Student Conference</h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Multi-axion cosmology and black hole superradiance in the string axiverse.</p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">1st-3rd June 2019</h5>
+                            <span class="item-company" style="font-family: 'Shippori Mincho', serif;">Hluhluwe-Imfolozi, Kwazulu Natal</span>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">III International Cosmology on Safari.</h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">Constraining cosmological multi-axion models via black hole superradiance.</p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">27th-31st August 2018</h5>
+                            <span class="item-company" style="font-family: 'Shippori Mincho', serif;">Institute for Basic Science, Daejeon</span>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">XXII International Conference on Particle Physics and Cosmology.</h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">The spectrum of the axion dark sector and black hole spin constraints on the number of axion-like fields.</p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period" style="font-family: 'Shippori Mincho', serif;">4th-11th July 2018</h5>
+                            <span class="item-company" style="font-family: 'Shippori Mincho', serif;">COEX Convention & Exhibition Center, Seoul</span>
+                                  </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title" style="font-family: 'Shippori Mincho', serif;">XXXIX International Conference on High Energy Physics.</h4>
+                            <p style="font-family: 'Shippori Mincho', serif;">The spectrum of the axion dark sector, cosmological observable and black hole superradiance constraints.</p>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="col-inner">
+
+                        <div class="block-title">
+                          <h3 style="font-family: 'Shippori Mincho', serif;">Mathematics<span></span></h3>
+                        </div>
+
+                        <div class="skills-info skills-second-style">
+                          <!-- Skill 1 -->
+                          <div class="clearfix">
+                            <h4>Web Design</h4>
+                            <div class="skill-value">95%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-1"></div>
+                          </div>
+                          <!-- /Skill 1 -->
+
+                          <!-- Skill 2 -->
+                          <div class="clearfix">
+                            <h4>Print Design</h4>
+                            <div class="skill-value">65%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-2"></div>
+                          </div>
+                          <!-- /Skill 2 -->
+
+                          <!-- Skill 3 -->
+                          <div class="clearfix">
+                            <h4>Logo Design</h4>
+                            <div class="skill-value">80%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div>
+                          <!-- /Skill 3 -->
+                          
+                          <!-- Skill 4 -->
+                          <div class="clearfix">
+                            <h4>Graphic Design</h4>
+                            <div class="skill-value">90%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-4"></div>
+                          </div>
+                          <!-- /Skill 4 -->
+                        </div>
+
+                        <div class="block-title">
+                          <h3 style="font-family: 'Shippori Mincho', serif;">MOBA<span></span></h3>
+                        </div>
+
+                        <div class="skills-info skills-second-style">
+                          <!-- Skill 1 -->
+                          <div class="clearfix">
+                            <h4>Web Design</h4>
+                            <div class="skill-value">95%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-1"></div>
+                          </div>
+                          <!-- /Skill 1 -->
+
+                          <!-- Skill 2 -->
+                          <div class="clearfix">
+                            <h4>Print Design</h4>
+                            <div class="skill-value">65%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-2"></div>
+                          </div>
+                          <!-- /Skill 2 -->
+
+                          <!-- Skill 3 -->
+                          <div class="clearfix">
+                            <h4>Logo Design</h4>
+                            <div class="skill-value">80%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div>
+                          <!-- /Skill 3 -->
+                          
+                          <!-- Skill 4 -->
+                          <div class="clearfix">
+                            <h4>Graphic Design</h4>
+                            <div class="skill-value">90%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-4"></div>
+                          </div>
+                          <!-- /Skill 4 -->
+                        </div>
+
+
+
+                        <div class="block-title ts-10">
+                          <h3 style="font-family: 'Shippori Mincho', serif;">Coding Skills<span></span></h3>
+                        </div>
+
+
+                        <div class="skills-info skills-second-style">
+                          <!-- Skill 5 -->
+                          <div class="clearfix">
+                            <h4>JavaScript</h4>
+                            <div class="skill-value">85%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-5"></div>
+                          </div>
+                          <!-- /Skill 5 -->
+
+                          <!-- Skill 6 -->
+                          <div class="clearfix">
+                            <h4>PHP</h4>
+                            <div class="skill-value">70%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-6"></div>
+                          </div>
+                          <!-- /Skill 6 -->
+
+                          <!-- Skill 7 -->
+                          <div class="clearfix">
+                            <h4>Python</h4>
+                            <div class="skill-value">60%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-7"></div>
+                          </div>
+                          <!-- /Skill 7 -->
+
+                          <!-- Skill 8 -->
+                          <div class="clearfix">
+                            <h4>Perl</h4>
+                            <div class="skill-value">75%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-8"></div>
+                          </div>
+                          <!-- /Skill 8 -->
+
+                          <!-- Skill 9 -->
+                          <div class="clearfix">
+                            <h4>HTML / CSS</h4>
+                            <div class="skill-value">100%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-9"></div>
+                          </div>
+                          <!-- /Skill 9 -->
+
+                          <!-- Skill 10 -->
+                          <div class="clearfix">
+                            <h4>Smarty / Twig</h4>
+                            <div class="skill-value">80%</div>
+                          </div>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-10"></div>
+                          </div>
+                          <!-- /Skill 10 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                </div>
+              </div>
+            </section>
+            <!-- End of Resume Subpage -->
+
+
+            <!-- Portfolio Subpage -->
+            <section class="pt-page" data-id="portfolio">
+              <div class="section-inner custom-page-content">
+                <div class="section-title-block second-style">
+                  <img src="images/photography/mono_logo.png" alt="image" style="width: 15em;">
+                  <h2 class="section-title"></h2>
+                  <h5 class="section-description" style="font-family: 'Cutive Mono', monospace; font-size: large;">MONO_51996</h5>
+                  
+                </div>
+          
+                <div class="section-content">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+
+                        <ul class="portfolio-filters">
+                          <li class="active">
+                            <a class="filter btn btn-sm btn-link" data-group="category_all" style="font-family: 'Cutive Mono', monospace;">All</a>
+                          </li>
+                          <li >
+                            <a class="filter btn btn-sm btn-link" data-group="category_africa" style="font-family: 'Cutive Mono', monospace;">Africa</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_asia" style="font-family: 'Cutive Mono', monospace;">Asia</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_europe" style="font-family: 'Cutive Mono', monospace;">Europe</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_northamerica" style="font-family: 'Cutive Mono', monospace;">North America</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_misc" style="font-family: 'Cutive Mono', monospace;">Misc</a>
+                          </li>
+                        </ul>
+
+                        <!-- Portfolio Grid -->
+                        <div class="portfolio-grid two-columns">
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/ele1.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/ele1.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/buda_3.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/buda_3.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/gir.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/gir.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/street_1.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/street_1.jpg"></a>
+                            </div>
+                          </figure>
+                          
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/border.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/border.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/mountain1.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/mountain1.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_northamerica"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/america/axion.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/america/axion.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/flowers_2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/flowers_2.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_northamerica"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/america/scape.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/america/scape.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/ears1.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/ears1.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/buffalo.jpg" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Mockup Design 1" href="images/photography/africa/buffalo.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/hall2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/hall2.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_northamerica"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/america/nyc2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/america/nyc2.jpg"></a>
+                            </div>
+                          </figure>
+                          
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/baby.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/baby.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/monkey.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/monkey.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_northamerica"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/america/front.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/america/front.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/gate.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/gate.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/impala.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/impala.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/house.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/house.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/flower.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/flower.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_northamerica"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/america/lady.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/america/lady.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/elephant2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/elephant2.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/table.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/table.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_northamerica"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/america/nature.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/america/nature.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/lion1.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/lion1.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/ruble.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/ruble.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/ice_5.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/ice_5jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/monkeys.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/monkeys.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_northamerica"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/america/street.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/america/street.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/paws.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/paws.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/ice_1.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/ice_1.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/rhino.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/rhino.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/skyline.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/skyline.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/sleepy.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/sleepy.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/shopping.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/shopping.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/hall.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/hall.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/standoff.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/standoff.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/ice_13.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/ice_13.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_northamerica"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/america/flag.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/america/flag.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/zilla.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/zilla.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/vul.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/vul.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/ice_3.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/ice_3.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/pumas.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/pumas.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/track.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/track.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/detector.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/detector.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_northamerica"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/america/stadium.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/america/stadium.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/roof1.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/roof1.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/rhino2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/rhino2.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/buda_1.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/buda_1.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/high.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/high.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/shoreline.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/shoreline.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/mountain2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/mountain2.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/spots.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/spots.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/high2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/high2.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/smile.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/smile.jpg"></a>
+                            </div>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/sleepy2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/sleepy2.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/ice_14.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/ice_14.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_northamerica"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/america/nyc1.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/america/nyc1.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/garden.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/garden.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/wildebeest.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/wildebeest.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/ice_6.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/ice_6.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/statue2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/statue2.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/zebra.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/zebra.jpg"></a>
+                            </div>
+                          </figure>
+
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/lion2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/lion2.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/shibuya.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/shibuya.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/rhino2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/rhino2.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/shinjuku.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/shinjuku.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/ears2.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/ears2.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/flower_3.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/flower_3.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_northamerica"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/america/control.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/america/control.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/elephant1.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/elephant1.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/sake.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/sake.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_africa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/hippo.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/africa/hippo.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_europe"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/europe/fence.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/europe/fence.jpg"></a>
+                            </div>
+                          </figure>
+                          <figure class="item lbimage" data-groups='["category_all", "category_asia"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/asia/gateplus.jpg" alt="" title="" />
+                              <a class="lightbox" title="" href="images/photography/asia/gateplus.jpg"></a>
+                            </div>
+                          </figure>
+
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
+                            <div class="portfolio-item-img">
+                              <img src="images/photography/africa/snake.jpg" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Mockup Design 1" href="images/photography/africa/snake.jpg"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h4 class="name">Mockup Design 1</h4>
+                            <span class="category">Mockups</span>
+                          </figure>
+
+
+
+                        
+
+
+                         
+                        </div>
+                      </div>
+                      <!-- /Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- /Portfolio Subpage -->
+
+            <!-- Blog Subpage -->
+            <section class="pt-page" data-id="blog">
+              <div class="section-inner custom-page-content">
+                <div class="section-title-block second-style">
+                  <h2 class="section-title" style="font-family: 'Cormorant SC', serif;" >Theoretical Physics Research</h2>
+                  <h5 class="section-description" style="font-family: 'Cormorant SC', serif;">Published Papers & Thesis</h5>
+                </div>
+
+                <div class="section-content">
+                  <div class="row">
+                    <div class="col-xs-8 col-sm-12">
+                      <div class="blog-masonry three-columns clearfix">
+                        
+                        <!-- Blog Post 1 -->
+                        <div class="item post-1">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              
+                              <a href="paper_1.html">
+                                <img src="images/blog/paper_1.jpg" class="size-blog-masonry-image-three-c" alt="Best Practices for Animated Progress Indicators" title="" />
                                 
-                                <ul class="mb-0 about-social list-inline mt-4">
-                                    <li class="list-inline-item"><a href="#"><i class="mdi mdi-github-circle"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/matthewjstott/"><i class="mdi mdi-linkedin"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="mdi mdi-email"></i></a></li>
-
-                                    <li class="list-inline-item"><a href="https://www.facebook.com/matt.stott.790"><i class="mdi mdi-facebook"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.instagram.com/stott.ai/?hl=en"><i class="mdi mdi-instagram"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="mdi mdi-whatsapp"></i></a></li>
-                                </ul> 
+                              </a>
                             </div>
+                            <div class="post-info">
+                              <div class="post-date" style="font-family: 'Cormorant SC', serif;">Mar 11, 2021</div>
+                              <a href="paper_1.html">
+                                <h4 class="blog-item-title" style="font-family: 'Cormorant SC', serif;">Superradiance in String </br>  Theory</br> </br>  </h4>
+                                
+                              </a>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END ABOUT -->
-        <section class="section2" >
-            <div class="container" style="background-image: url(../images/check_2.png)">
-            </div>
-        </section>
-        <!-- START SERVICES -->
-        <section class="section " id="services" >
-            <div class="container">
-                <div class="row justify-content-center" width=1em>
-                    <div class="col-lg-12" >
-                        <div class="text-center">
-                            <img src="images/check_3.png" width="1000em" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;">
+                        <!-- End of Blog Post 1 -->
 
+                        <!-- Blog Post 2 -->
+                        <div class="item post-2">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              
+                              <a href="paper_2.html">
+                                <img src="images/blog/paper_2.jpg" class="size-blog-masonry-image-two-c " alt="Designing the Perfect Feature Comparison Table" title="" />
+                                
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date" style="font-family: 'Cormorant SC', serif;">Nov 17, 2020</div>
+                              <a href="paper_2.html">
+                                <h4 class="blog-item-title" style="font-family: 'Cormorant SC', serif;">Superradiance Exclusions in the Landscape of Type IIB String Theory</h4>
+                              </a>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="border: 1px solid rgba(212,175,55,0.0);">
-                           
-                            <div class="mt-4" >
-                                <a href="https://stott.ai/laboraitory/">
-                                <img src="images/lab.mp4" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;">
+                        <!-- End of Blog Post 2 -->
+
+                        <!-- Blog Post 3 -->
+                        <div class="item post-3">
+                          <div class="blog-card">
+                            <div class="media-block">
+                            
+                              <a href="paper_3.html">
+                                <img src="images/blog/paper_3.jpg" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title=""/>
+                               
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date" style="font-family: 'Cormorant SC', serif;">Sep 15, 2020</div>
+                              <a href="paper_3.html">
+                                <h4 class="blog-item-title" style="font-family: 'Cormorant SC', serif;">Ultralight Bosonic Field Mass Bounds from Astrophysical Black Hole Spin</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 3 -->
+                        <div class="item post-6">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              
+                              <a href="paper_4.html">
+                                <img src="images/blog/paper_4.jpg" class="size-blog-masonry-image-two-c" alt="6 Easy Steps to Better Icon Design" title="" />
+                                
+                              </a>
+                            </div>
+                            <div class="post-info" style="margin-bottom:0.05cm;">
+                              <div class="post-date" style="font-family: 'Cormorant SC', serif;">06 Apr 2018</div>
+                              <a href="paper_4.html"><h4 class="blog-item-title" style="font-family: 'Cormorant SC', serif;">The Random Matrix Axiverse </br> and Axion Cosmology in </br>  String Theory </br> </br> </h4></a>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Blog Post 4 -->
+                        <div class="item post-4">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              
+                              <a href="paper_5.html">
+                                <img src="images/blog/paper_7.jpg" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
+                                
                                 </a>
                             </div>
+                            <div class="post-info">
+                              <div class="post-date" style="font-family: 'Cormorant SC', serif;">Nov 14, 2018</div>
+                              <a href="paper_5.html">
+                                <h4 class="blog-item-title" style="font-family: 'Cormorant SC', serif;">The Spectrum of the Axion Dark Sector, Cosmological Observable and Black Hole Superradiance Constraints</h4>
+                              </a>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
-                                <i class="mbri-hot-cup text-custom display-4"></i>
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0">Unlimited Color</h5>
-                                <div class="services-title-border"></div>
-                                <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
-                                <i class="mbri-upload text-custom display-4"></i>
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0">Media Marketing</h5>
-                                <div class="services-title-border"></div>
-                                <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
-                                <i class="mbri-layers text-custom display-4"></i>
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0">Unlimited Wifi</h5>
-                                <div class="services-title-border"></div>
-                                <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
-                                <i class="mbri-website-theme text-custom display-4"></i>
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0">Responsive Design</h5>
-                                <div class="services-title-border"></div>
-                                <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
-                                <i class="mbri-edit text-custom display-4"></i>
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0">Easy to customize</h5>
-                                <div class="services-title-border"></div>
-                                <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="section2" >
-            <div class="container" style="background-image: url(../images/check_2.png)">
-            </div>
-        </section>
-        
-
-
-        <!-- END SERVICES -->
-         <!-- START SERVICES -->
-         <section class="section " id="client">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="text-center">
-                            <img src="images/check_2.png" width="1000em" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;">
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    
-                        <div class="col-lg-4">
-                            <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                             
-                                <div class="work_img">
-                                        <img src="images/papers/string.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                                    </div>
-                                <div class="mt-4">
-                                   
-                                    <h5 class="mb-0" align="left"><font color="#7a6215" style="font-family: Baskervville;font-variant: small-caps;">Gravitational Wave Bursts from Cosmic String Cusps & Pseudocusps</font> </h5>
-                                    <div class="services-title-border"></div>
-                                    <p class="text-muted mt-3" align="left" style="font-family: Baskervville;"><i>Matthew<font color="#d4af37"> J.</font> Stott, Thomas Elghozi & Mairi Sakellariadou</i></p>
-                                    <p class="text-muted mt-3" align="left" style="font-family: Baskervville;font-variant: small-caps;;"><font color="#7a6215">DOI : <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.023533"><font color="#D4AF37">10.1103/PhysRevD.96.023533</font></font></a></p>
-                                    <p class="text-muted mt-3" align="left" style="font-family: Baskervville;font-variant: small-caps;;"><font color="#7a6215">arXiv : <a href="https://arxiv.org/pdf/1612.07599.pdf"><font color="#D4AF37">1612.07599</font></font></a></p>
-                                    <p class="text-muted mt-3" align="left" style="font-family: Baskervville;font-variant: small-caps;;"><font color="#7a6215">Inspirehep : <a href="http://inspirehep.net/record/1505558"><font color="#D4AF37">1505558</font></font></a></p>
-                                </div>
-                            </div>
-                        </div>
-                      
+                        <!-- End of Blog Post 4 -->
                         
-                    
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                            <div class="work_img">
-                                <img src="images/papers/fun2.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0" align="left"><font color="#7a6215" style="font-family: Baskervville;font-variant: small-caps;">The spectrum of the axion dark sector</font> </h5>
-                                <div class="services-title-border"></div>
+                        <!-- Blog Post 5 -->
+                        <div class="item post-5">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              
+                              <a href="paper_6.html">
+                                <img src="images/blog/paper_5.jpg" class="size-blog-masonry-image-two-c" alt="Creative and Innovative Navigation Designs" title="" />
                                 
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville;"><i>Matthew<font color="#d4af37"> J.</font> Stott & David J. E. Marsh, Chakrit Pongkitivanichkul, Layne C. Price & Bobby S. Acharya</i></p>
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville;font-variant: small-caps;;"><font color="#7a6215">DOI : <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.083510"><font color="#D4AF37">10.1103/PhysRevD.96.083510</font></font></a></p>
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville;font-variant: small-caps;;"><font color="#7a6215">arXiv : <a href="https://arxiv.org/pdf/1706.03236.pdf"><font color="#D4AF37">1706.03236</font></font></a></p>
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville;font-variant: small-caps;"><font color="#7a6215">Inspirehep : <a href="http://inspirehep.net/record/1604238"><font color="#D4AF37">1604238</font></font></a></p>
+                              </a>
                             </div>
+                            <div class="post-info" >
+                                <div class="post-date" style="font-family: 'Cormorant SC', serif;">May 5, 2018</div>
+                                <a href="paper_6.html">
+                                  <h4 class="blog-item-title" style="font-family: 'Cormorant SC', serif;">Black hole spin constraints on the mass spectrum and number of axionlike fields </br> </br> </h4>
+                                  
+                                </a>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                            <div class="work_img">
-                                <img src="images/papers/hole.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0" align="left"><font color="#7a6215" style="font-family: Baskervville;font-variant: small-caps;">Black hole spin constraints on the mass spectrum and number of axionlike fields</font> </h5>
-                                <div class="services-title-border" style="margin-top: 2.0em;"></div>
-                                <p style="margin-bottom:1.5em"></p>
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville"><i>Matthew<font color="#d4af37"> J.</font> Stott & David J. E. Marsh</i></p>
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville;font-variant: small-caps;;"><font color="#7a6215">DOI : <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.98.083006"><font color="#D4AF37">10.1103/PhysRevD.98.083006</font></font></a></p>
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville;font-variant: small-caps;;"><font color="#7a6215">arXiv : <a href="https://arxiv.org/pdf/1805.02016.pdf"><font color="#D4AF37">1805.02016</font></font></a></p>
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville;font-variant: small-caps;;"><font color="#7a6215">Inspirehep : <a href="http://inspirehep.net/record/1672030"><font color="#D4AF37">1672030</font></font></a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                         
-                            <div class="work_img">
-                                    <img src="images/papers/skystar.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                                </div>
-                            <div class="mt-4">
-                               
-                                <h5 class="mb-0" align="left"><font color="#7a6215" style="font-family: Baskervville;font-variant: small-caps;">The Spectrum of the Axion Dark Sector, Cosmological Observable and Black Hole Superradiance Constraints</font> </h5>
-                                <div class="services-title-border"></div>
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville;"><i>Matthew<font color="#d4af37"> J.</font> Stott</i></p>
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville;"><font color="#7a6215">DOI : <a href="https://pos.sissa.it/340/141"><font color="#D4AF37">C18-07-04 Proceedings</font></font></a></p>
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville;"><font color="#7a6215">arXiv : <a href="https://arxiv.org/pdf/1811.05763.pdf"><font color="#D4AF37">1811.05763</font></font></a></p>
-                                <p class="text-muted mt-3" align="left" style="font-family: Baskervville;"><font color="#7a6215">Inspirehep : <a href="http://inspirehep.net/record/1703611"><font color="#D4AF37">1703611</font></font></a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                            <div class="work_img">
-                                <img src="images/papers/geo.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0" align="left"><font color="#7a6215" style="font-family: Baskervville;font-variant: small-caps;">The Kreuzer-Skarke Axiverse & Black Hole Superradiance Cosmology</font></h5>
-                                <div class="services-title-border"></div>
-                               <!-- <p class="text-muted mt-3" align="left" style="Baskervville; font-variant: small-caps;">Coming soon.</p>-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                            <div class="work_img">
-                                <img src="images/papers/cosmo.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0" align="left" style="font-family: Baskervville;font-variant: small-caps;"><font color="#7a6215" >M87* Constarinats on Ultralight Scalar and Vector Bosons</font></h5>
-                                <div class="services-title-border"></div>
-                                <!--<p class="text-muted mt-3" align="left" style="Baskervville;font-variant: small-caps;">Coming soon.</p>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               
-             
-                
-            </div>
-            <div class="container" >
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="text-center">
-                            <img src="images/talks_cover.png" width="1000em" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000; padding-top: 5em;">
-                        </div>
-                    </div>
-                    <div class="row mt-5">
-                    
+                        <!-- End of Blog Post 5 -->
                         
-                    
-                    
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                            <div class="work_img">
-                                <img src="images/conferences/ichep2018_poster.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0" align="left"><font color="#7a6215" style="font-family: Baskervville;font-variant: small-caps;">XXXIX International Conference on High Energy Physics</font> </h5>
-                                <div class="services-title-border"></div>
+                        
+                       
+                        <!-- Blog Post 7 -->
+                        <div class="item post-7">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              
+                              <a href="paper_7.html">
+                                <img src="images/blog/paper_6.jpg" class="size-blog-masonry-image-two-c" alt="6 Easy Steps to Better Icon Design" title="" />
                                 
-                                <p class="text-muted mt-3" align="left" style="font-family:Amatic SC;font-size:20px;">"The spectrum of the axion dark sector, cosmological observable and black hole superradiance constraints."</p>
-                                <p align="left" style="margin-top: -10px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-map-marker-radius" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> CERN</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-google-maps" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> Geneva - Switzerland</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-calendar" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> 4th-11th July 2018</p>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date" style="font-family: 'Cormorant SC', serif;">Jun 10, 2017</div>
+                              <a href="paper_7.html"><h4 class="blog-item-title" style="font-family: 'Cormorant SC', serif;">Spectrum of the Axion Dark Sector </br> </br> </h4></a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 7 -->
+                        <!-- Blog Post 8 -->
+                        <div class="item post-8">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              
+                              <a href="paper_8.html">
+                                <img src="images/blog/paper_8.jpg" class="size-blog-masonry-image-two-c" alt="6 Easy Steps to Better Icon Design" title="" />
                                 
+                              </a>
                             </div>
+                            <div class="post-info">
+                              <div class="post-date" style="font-family: 'Cormorant SC', serif;">Dec 22, 2016</div>
+                              <a href="paper_8.html"><h3 class="blog-item-title" style="font-family: 'Cormorant SC', serif;">Gravitational Wave Bursts from Cosmic String Cusps and Pseudocusps</h4></a>
+                            </div>
+                          </div>
                         </div>
+                        <!-- End of Blog Post 7 -->
+                      </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                            <div class="work_img">
-                                <img src="images/conferences/cosmo.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0" align="left"><font color="#7a6215" style="font-family: Baskervville;font-variant: small-caps;">XXII International Conference on Particle Physics and Cosmology</font> </h5>
-                                <div class="services-title-border"></div>
-                                
-                                <p class="text-muted mt-3" align="left" style="font-family: Amatic SC;font-size:20px;">"The spectrum of the axion dark sector and black hole spin constraints on the number of axion-like fields."</p>
-                                <p align="left" style="margin-top: -10px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-map-marker-radius" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> Institute for Basic Science</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-google-maps" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> Daejeon - South Korea</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-calendar" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> 27th-31st August 2018</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                         
-                            <div class="work_img">
-                                    <img src="images/conferences/safari.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                                </div>
-                            <div class="mt-4">
-                               
-                                <h5 class="mb-0" align="left" ><font color="#7a6215" style="font-family: Baskervville;font-variant: small-caps;">III International Cosmology on 
-                                    Safari</font> </h5>
-                                <div class="services-title-border" style="margin-top: 2.5em;"></div>
-                                <p class="text-muted mt-3" align="left" style="font-family: Amatic SC;font-size:20px;">"Constraining cosmological multi-axion models via black hole superradiance."</p>
-                                <p align="left" style="margin-top: -10px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-map-marker-radius" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> Hluhluwe-Imfolozi</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-google-maps" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> Kwazulu Natal - South Africa</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-calendar" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> 3rd-9th March 2019</p>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                            <div class="work_img">
-                                <img src="images/conferences/unnamed.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0" align="left"><font color="#7a6215" style="font-family: Baskervville;font-variant: small-caps;">X Strings, Cosmology, and Gravity Student Conference</font></h5>
-                                <div class="services-title-border" style="margin-top: 2.5em;"></div>
-                                <p class="text-muted mt-3" align="left" style="font-family: Amatic SC;font-size:20px;">"Multi-axion cosmology and black hole superradiance in the string axiverse."</p>
-                                <p align="left" style="margin-top: -10px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-map-marker-radius" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> Max Planck Institute</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-google-maps" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> Münich - Germany</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-calendar" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> 1st-3rd June 2019</p>                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                            <div class="work_img">
-                                <img src="images/conferences/poster-Planck2019.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0" align="left"><font color="#7a6215" style="font-family: Baskervville;font-variant: small-caps;">XXII Conference From the Planck Scale to the Electro-Weak Scale</font></h5>
-                                <div class="services-title-border"></div>
-                                <p class="text-muted mt-3" align="left" style="font-family: Amatic SC;font-size:20px;">"Effective ultralight multi-axion string models and constraints via black hole superradiance.".</p>
-                                <p align="left" style="margin-top: -10px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-map-marker-radius" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> Parque de las Ciencias</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-google-maps" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> Granada - Spain</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-calendar" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> 3rd-7th June 2019</p>                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4" style="background-size: 100% 100%;">
-                            <div class="work_img">
-                                <img src="images/conferences/Poster_SP19.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);">
-                            </div>
-                            <div class="mt-4">
-                                <h5 class="mb-0" align="left" style="font-family: Baskervville;font-variant: small-caps;"><font color="#7a6215" >XIX Conference 
-                                    on 
-                                    String Phenomenology</font></h5>
-                                <div class="services-title-border" style="margin-top: 2.5em;"></div>
-                                <p class="text-muted mt-3" align="left" style="font-family: Amatic SC;font-size:20px;">"Effective multi-axion cosmology and constraints from black hole superradiance."</p>
-                                <p align="left" style="margin-top: -10px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-map-marker-radius" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> CERN</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-google-maps" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> Geneva - Switzerland</p>
-                                <p align="left" style="margin-top: -14px;font-family: Baskervville;font-variant: small-caps;"><i class="mdi mdi-calendar" style="font-size:22.5px;color:rgb(153, 123, 0)"></i> 24th-28th June 2019</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                </div>
-            
-        </section>
-        <!-- END SERVICES -->
-        <!--START PHOTOGRAPHY-->
-        <section class="section2" >
-            <div class="container" style="background-image: url(../images/check_2.png)">
-            </div>
-        </section>
-        <section class="section " id="work">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="text-center">
-                            <img src="images/photo.png" width="1000em" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000; padding-bottom: 2cm;">
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-2">
-                    
-                    <div class="col-lg-6">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
-                                <img src="images/logo_4.png" class="img-fluid mx-auto d-block rounded" width="140" alt="work-img" style="text-shadow: 2px 2px 4px #000000;">
+              </div>
+            </section>
+            <!-- /Blog Subpage -->
 
-                            </div>
-                            <div class="mt-4">
-                                <h3 style="font-family: Cinzel;letter-spacing: 0.75em;">MONO 51.996</h3>
-                               
-                                <h9 style="font-family: Cinzel;letter-spacing: 0.95em;">PORTFOLIO.MONO.</h9>
-                                <div class="services-title-border"></div>
-                                <div class="text-center mt-4">
-                                    <a href="https://stott.ai/mono51.996/" class="btn btn-custom" style="font-family: Cinzel;color:rgba(212,175,55,1.0);background-color: rgba(212,175,55,0.1);">[ENTER]</a>
-                                </div>
-                                <br>
-                            </div>
-                            
-                            <div class="work_img">
-                                
-                                <img src="images/mono_51996_pic.png" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
-                                <img src="images/etc.mp4" width="103em" class="img-fluid mx-auto d-block rounded" width="140" alt="work-img" style="text-shadow: 2px 2px 4px #000000;">
-                            </div>
-                            <div class="mt-4">
-                                <div id="container">
-                                    <div class="logo2"><b>EC<span>TI</span>S<span>E</span>NCE</b></div>
-                                    <br>
-                                    <h9 style="font-family: Cinzel;letter-spacing: 0.95em;">&nbsp;COMING SOON.</h9>
+            <!-- Contact Subpage -->
+            <section class="pt-page" data-id="contact">
+              <div class="section-inner custom-page-content">
+                <div class="section-title-block second-style">
+                  <h2 class="section-title" style="font-family: 'Shippori Mincho', serif;">Contact</h2>
+                  
+                </div>
 
-                                    <div class="text-center mt-4">
-                                        <a href="#" class="btn btn-custom" style="font-family: Cinzel;color:rgba(212,175,55,1.0);background-color: rgba(212,175,55,0.1);">[SOON]</a>
-                                    </div>
-                                    </div>
-                                
-                                <div class="services-title-border"></div>
-                            </div>
-                            <div class="work_img">
-                                <img src="images/hands.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img"  style=" text-shadow: 2px 2px 4px #000000;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                </div>
-            </div>
-        </section>
-        <!--END PHOTOGRAPHY-->
-        <!-- START CTA -->
-        <section class="section2" >
-            <div class="container" style="background-image: url(../images/check_2.png)">
-            </div>
-        </section>
-        <!-- END CTA -->
-
-        <!-- START CLIENT -->
-        <!--
-        <section class="section bg-light" id="client">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="text-center">
-                            <h2>Education<span class="font-weight-bold"></span></h2>
-                            <p class="text-muted mx-auto section-subtitle mt-3" style="font-family:Baskervville;">Academic Degrees</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-4 pt-4">
-                    <div class="col-lg-12">
-                        <div id="owl-demo" class="owl-carousel">
-                            <div class="text-center testi_boxes mx-auto">
-                                
-                                <div class="mt-1">
-                                    <div class="work_img">
-                                        <img src="images/thesisfront.jpg" width="50%" align="left" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);margin-right:10em;">
-                                    </div>
-                                    <div class="work_img">
-                                        <img src="images/Picture1.png" width="15%" align="right" class="img-fluid mx-auto d-block rounded" alt="work-img" >
-                                    </div>
-                                    
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <p align='right' style="font-family:Baskervville;">King's College London</p>
-                                    <p  align='right' style="font-family:Baskervville;">DPhil. Theoretical Physics</p>
-                                    <p  align='right' style="font-family:Baskervville;"><span class="font-weight-bold" >Thesis:</span> The Random Matrix Axiverse & Axion Cosmology in String Theory </p>
-                                </div>
-                            </div>
-                            <div class="text-center testi_boxes mx-auto">
-                                
-                                <div class="mt-1">
-                                    <div class="work_img">
-                                        <img src="images/mthesisfront.jpg" width="50%" align="left" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);margin-right:10em;">
-                                    </div>
-                                    <div class="work_img">
-                                        <img src="images/Picture1.png" width="15%" align="right" class="img-fluid mx-auto d-block rounded" alt="work-img" >
-                                    </div>
-                                    
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <p align='right' style="font-family:Baskervville;">King's College London</p>
-                                    <p  align='right' style="font-family:Baskervville;">MSci. Physics</p>
-                                    <p  align='right' style="font-family:Baskervville;"><span class="font-weight-bold" >Thesis:</span> The Random Matrix Axiverse & Axion Cosmology in String Theory </p>
-                                </div>
-                            </div>
-                            <div class="text-center testi_boxes mx-auto">
-                                
-                                <div class="mt-1">
-                                    <div class="work_img">
-                                        <img src="images/litfront.jpg" width="50%" align="left" class="img-fluid mx-auto d-block rounded" alt="work-img" style="text-shadow: 2px 2px 4px #000000;box-shadow: 5px 10px 5px rgb(153, 123, 0);margin-right:10em;">
-                                    </div>
-                                    <div class="work_img">
-                                        <img src="images/Picture1.png" width="15%" align="right" class="img-fluid mx-auto d-block rounded" alt="work-img" >
-                                    </div>
-                                    
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <p align='right' style="font-family:Baskervville;">King's College London</p>
-                                    <p  align='right' style="font-family:Baskervville;">MSci. Physics</p>
-                                    <p  align='right' style="font-family:Baskervville;"><span class="font-weight-bold" >Thesis:</span> The Random Matrix Axiverse & Axion Cosmology in String Theory </p>
-                                </div>
-                            </div>
-                            
-                            <div class="text-center testi_boxes mx-auto">
-                                <div class="tam_testi_icon text-custom">
-                                    <i class="mbri-quote-left"></i>
-                                </div>
-                                <div class="mt-2">
-                                    <div>
-                                        <img src="images/testi/testi-2.jpg" alt="" class="mx-auto img-thumbnail img-fluid d-block rounded-circle">
-                                    </div>
-                                    <p class="client_review font-italic mt-4 text-center text-muted">" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
-                                    <p class="client_name text-center mb-0 mt-4">- Ebony verty, <span class="font-weight-bold">Envato</span></p>
-                                </div>
-                            </div>
-                            <div class="text-center testi_boxes mx-auto">
-                                <div class="tam_testi_icon text-custom">
-                                    <i class="mbri-quote-left"></i>
-                                </div>
-                                <div class="mt-2">
-                                    <div>
-                                        <img src="images/testi/testi-3.jpg" alt="" class="mx-auto img-thumbnail img-fluid d-block rounded-circle">
-                                    </div>
-                                    <p class="client_review font-italic mt-4 text-center text-muted">" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
-                                    <p class="client_name text-center mb-0 mt-4">- Ebony verty, <span class="font-weight-bold">Envato</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-          -->
-        <!-- END CLIENT -->
-  
-        <!--START WORK --> 
-        <!--  
-        <section class="section text-center" id="work">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="text-center">
-                            <h2>Data <span class="font-weight-bold">Visulisation</span></h2>
-                            <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-5 ">
-                    <ul class="col list-unstyled list-inline mb-0 text-uppercase work_menu" id="menu-filter">
-                        <li class="list-inline-item"><a class="active" data-filter="*">All</a></li>
-                        <li class="list-inline-item"><a class="" data-filter=".seo">3D</a></li>
-                        <li class="list-inline-item"><a class="" data-filter=".webdesign">CONTOUR</a></li>
-                        <li class="list-inline-item"><a class="" data-filter=".WORK">DENSITY</a></li>
-                        <li class="list-inline-item"><a class="" data-filter=".wordpress">LINEAR</a></li>
-                        <li class="list-inline-item"><a class="" data-filter=".scatter">SCATTER</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row mt-4 work-filter">
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/align.png" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/align.png" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item seo">
-                        <a href="images/data_vis/3d/ergoregions3d1.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/3d/ergoregions3d1.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/alphalimits3.jpg" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/alphalimits3.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/bose_example.jpg" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/bose_example.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/example_decay_constraints.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/example_decay_constraints.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/example_error2.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/example_error2.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/LFex17.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/LFex17.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/maintemp.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/maintemp.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/log_flat4.jpg" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/log_flat4.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/regge_sl_ex.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/regge_sl_ex.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/self_interaction_deformation.jpg" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/self_interaction_deformation.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/solar_example_2.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/solar_example_2.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item webdesign">
-                        <a href="images/data_vis/contour/tes7.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/contour/tes7.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 work_item seo">
-                        <a href="images/data_vis/3d/timescale_ratios.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/3d/timescale_ratios.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item WORK">
-                        <a href="images/data_vis/histogram/corner_plot.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/histogram/corner_plot.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item WORK">
-                        <a href="images/data_vis/histogram/M_theory_2d2.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/histogram/M_theory_2d2.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item WORK">
-                        <a href="images/data_vis/histogram/spike_spectra2.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/histogram/spike_spectra2.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item WORK">
-                        <a href="images/data_vis/histogram/wigner.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/histogram/wigner.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item wordpress">
-                        <a href="images/data_vis/line/cosmoappplot2.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/line/cosmoappplot2.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item wordpress">
-                        <a href="images/data_vis/line/mppdfdist.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/line/mppdfdist.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item wordpress">
-                        <a href="images/data_vis/line/omegaex2.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/line/omegaex2.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item wordpress">
-                        <a href="images/data_vis/line/potential_plot.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/line/potential_plot.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item wordpress">
-                        <a href="images/data_vis/line/reggespectrumfix4.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/line/reggespectrumfix4.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item wordpress">
-                        <a href="images/data_vis/line/SLBH_EX_N.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/line/SLBH_EX_N.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item scatter">
-                        <a href="images/data_vis/scatter/hodge2.png" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/scatter/hodge2.png" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 work_item scatter">
-                        <a href="images/data_vis/scatter/kurtosis_skew_sample.pdf" class="img-zoom">
-                            <div class="work_box">
-                                <div class="work_img">
-                                    <img src="images/data_vis/scatter/kurtosis_skew_sample.pdf" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                                </div>
-                                <div class="work_detail">
-                                    <p class="mb-2">Category</p>
-                                    <h4 class="mb-0">Project Title</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
+                <div class="section-content">
+                  <div class="row">
                    
 
+
+                  <div class="row">
                    
 
-                
+                  </div>
                 </div>
-            </div>
-        </section>
-        -->
-        <!--END WORK -->
 
-        <!-- START BLOG -->
-        <!--
-        <section class="section bg-light" id="blog">
-            <div class="container">   
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="text-center">
-                            <h2>My <span class="font-weight-bold">Blog</span></h2>
-                            <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
-                        </div>
-                    </div>
-                </div>                 
-                <div class="row mt-5">
-                    <div class="col-lg-4 mt-3">
-                        <div class="rounded bg-white p-2">
-                            <div class="img_blog">
-                                <img src="images/blog/blog-1.jpg" alt="" class="img-fluid rounded mx-auto d-block">
-                            </div>
-                            <div class="content_blog pt-3 pb-3">
-                                <div>
-                                    <h5 class="font-weight-bold mb-0"><a href="#" class="text-dark">There are many variations</a></h5>
-                                </div>
-                                <div class="mt-3">
-                                    <p class="h6 text-muted date_blog mb-0">11 March 2018 <a href="#" class="text-custom font-weight-bold">By Kerri</a></p>
-                                    <p class="mt-3 desc_blog text-muted">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
-                                    <p class="h6 mb-0"><a href="#" class="text-muted font-weight-bold">Read More...</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mt-3">
-                        <div class="rounded bg-white p-2">
-                            <div class="img_blog">
-                                <img src="images/blog/blog-2.jpg" alt="" class="img-fluid rounded mx-auto d-block">
-                            </div>
-                            <div class="content_blog pt-3 pb-3">
-                                <div>
-                                    <h5 class="font-weight-bold mb-0"><a href="#" class="text-dark">Contrary to popular belief</a></h5>
-                                </div>
-                                <div class="mt-3">
-                                    <p class="h6 text-muted date_blog mb-0">18 March 2018 <a href="#" class="text-custom font-weight-bold">By Kerri</a></p>
-                                    <p class="mt-3 desc_blog text-muted">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
-                                    <p class="h6 mb-0"><a href="#" class="text-muted font-weight-bold">Read More...</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mt-3">
-                        <div class="rounded bg-white p-2">
-                            <div class="img_blog">
-                                <img src="images/blog/blog-3.jpg" alt="" class="img-fluid rounded mx-auto d-block">
-                            </div>
-                            <div class="content_blog pt-3 pb-3">
-                                <div>
-                                    <h5 class="font-weight-bold mb-0"><a href="#" class="text-dark">Lorem Ipsum is not simply</a></h5>
-                                </div>
-                                <div class="mt-3">
-                                    <p class="h6 text-muted date_blog mb-0">22 March 2018 <a href="#" class="text-custom font-weight-bold">By Kerri</a></p>
-                                    <p class="mt-3 desc_blog text-muted">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
-                                    <p class="h6 mb-0"><a href="#" class="text-muted font-weight-bold">Read More...</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    -->
-        <!-- END BLOG -->
-        
-        <!-- START CONTACT -->
-        <section class="section" id="contact" >
-            <div class="container" >
-                <div class="row justify-content-center">
-                    <div class="col-lg-12" >
-                        <div class="text-center">
-                            <h2 style='font-family: cinzel;'><span class="font-weight-bold" style='font-family: cinzel;'><font color="#d4af37">Contact</font></span > Me</h2>
-                        </div>
-                    </div>
-                </div> 
-                <div class="row mt-5">
-                    <div class="col-lg-4">
-                        <div class="text-center">
-                            <div>
-                            </div>
-                            <div class="mt-3">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center">
-                            <div>
-                                <i class="mbri-letter text-custom h1"></i>
-                            </div>
-                            <div class="mt-3">
-                                <h5 class="mb-0 contact_detail-title font-weight-bold" style='font-family: cinzel;'>Email Me</h5>
-                                <p class="text-muted" ><span style='font-family: cinzel;'>m</span><font style="color=#d4af37">@</font><span style='font-family: cinzel;'>stott</span><span style='font-family: cinzel;color=#d4af37'>.ai</span></p>
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-8 offset-sm-1 offset-sm-2">
+                    <div class="col-inner ts-20">
+                      <img src="images/tale.jpg" alt="" title="" />
+                      <div class="block-title">
+                        <h3 style="font-family: 'Shippori Mincho', serif;">Get in touch...</h3>
+                      </div>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-center">
-                            <div>
-                               
-                            </div>
-                            <div class="mt-3">
-                           
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-lg-12">
-                        <div class="form-kerri contact_form">
-                            <div id="message"></div>
-                            <form method="post" action="php/contact.php" name="contact-form" id="working_form">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group mt-2">
-                                            <input name="name" id="name" type="text" class="form-control" placeholder="Your name..." >
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group mt-2">
-                                            <input name="email" id="email" type="email" class="form-control" placeholder="Your email..." >
-                                        </div>
-                                    </div>                                
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="form-group mt-2">
-                                            <input type="text" class="form-control" id="subject" placeholder="Your Subject.." />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="form-group mt-2">
-                                            <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12 text-right">
-                                        <input type="submit" id="submit" name="send" class="submitBnt btn btn-custom text-uppercase" value="Submit" style='font-family: cinzel;'> 
-                                        <div id="simple-msg"></div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>  
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END CONTACT -->
+                      <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
 
-        <!--START FOOTER-->
-        <footer class="footer bg-light">
-            <div class="container">
-                <div class="row justify-content-center text-center">
-                    <div class="col-md-12">
-                        
-                        <div class="text-center text-white footer-alt">
-                            
-                            <img src="images/sig2.png" width="15%" class="img-fluid mx-auto d-block rounded" align="center" alt="work-img"  style="text-shadow: 2px 2px 4px #000000;">
-                            
-                            <p class="text-muted mb-0" style="font-family: cinzel;"> 2020 &copy; MJS</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--END FOOTER-->
+                        <div class="messages"></div>
 
-        <!-- Back To Top -->    
-        <a href="#" class="back_top"> <i class="mdi mdi-chevron-up"> </i> </a>
+                        <div class="controls two-columns">
+                          <div class="fields clearfix">
+                            <div class="left-column">
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Subject" required="required" data-error="Subject is required.">
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                            <div class="right-column">
+                              <div class="form-group form-group-with-icon">
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
       
-        <!-- JAVASCRIPTS -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <!--EASING JS-->
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/scrollspy.min.js"></script>
-        <!--PORTFOLIO FILTER JS-->
-        <script src="js/isotope.js"></script>
-        <!-- Magnific Popup Js -->
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <!--TEXT ROTETE-->
-        <script src="js/jquery.simple-text-rotator.js"></script>
-        <!-- OWL CAROUSEL -->
-        <script src="js/owl.carousel.min.js"></script>
-        <!--PARTICLES ANIMATE JS-->
-        <script src="js/particles.js"></script>  
-        <script src="js/particles.app.js"></script> 
-        <!-- CONTACT JS -->
-        <script src="js/contact.js"></script>
-        <!--CUSTOM JS-->
-        <script src="js/custom.js"></script>
-        <script>
-            $(".simple-text-rotate").textrotator({
-                animation: "fade",
-                speed: 3500
-            });
-        </script>
-    </body>
+                          <input type="submit" class="button btn-send" value="Send message">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pages-switcher.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

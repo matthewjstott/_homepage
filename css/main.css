@@ -676,12 +676,12 @@ blockquote {
 }
 
 .section-inner.start-page-full-width .inner-content .fill-block {
-  background-image: url(../images/sp_photo.jpg);
+  background-image: url(../images/home_photo.jpg);
 }
 .section-inner.start-page-full-width .inner-content .fill-block {
   position: relative;
   height: 100%;
-  min-height: 300px;
+  min-height: 550px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
